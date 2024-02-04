@@ -48,7 +48,7 @@
 
         <!-- Form for adding new task -->
         <form id="task-form">
-            <input name="task" type="text" id="task-input" placeholder="Enter Your To-do List Task" required>
+            <input name="task" type="text" class="task" id="task-input" placeholder="Enter Your To-do List Task" required>
             <input name="date" type="date" id="due-date-input" required>
             <div id="priority-container">
 
@@ -64,15 +64,16 @@
 
             <button name="button">Add <i class="fa-solid fa-circle-plus"></i></button>
             <select name="filter" id="filter">
-                <option value="">filter</option>
+                <option value="">Filter:</option>
                 <option value="All">All</option>
                 <option value="High">High</option>
                 <option value="Medium">Medium</option>
                 <option value="Low">Low</option>
             </select>
+    
             <input type="text" id="search-input" placeholder="Search">
         </form>
-        <br><br>
+        <br>
 
 
         <!-- Task container for holding tasks -->
